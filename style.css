@@ -238,3 +238,38 @@ footer{
     font-size: 12px;
     
 }
+
+.contents-map {
+    height: 500px;
+    margin-top: 50px;
+    padding: 10px 100px 100px 180px;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.contents-item h4 {
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #528AAE;
+    display: inline-block;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+.contents-item p {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.contents-item img {
+    width: 350px;
+}
