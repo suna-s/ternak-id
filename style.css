@@ -205,6 +205,24 @@ li {
 .color-6{background-color: #dcb8a8;}
 .color-7{background-color: #c0cbd1;}
 
+/*KB*/
+.kebutuhan-budidaya {
+  background-color: #FFE4E1;
+  padding: 20px;
+}
+.judul-kb {
+  text-align: center;
+}
+.main-kb p {
+  padding-top: 0.2px;
+}
+.spesifikasi {
+  float: left;
+}
+.list-kb {
+  width: 100px;
+  text-align: center;
+}
 
 /*Map */
 .contents-map {
