@@ -4,6 +4,95 @@
     box-sizing: border-box;
 }
 
+/* Header */
+.header {
+    background-color: #fff;
+    color: rgb(3, 15, 37);
+    font-family: Arial;
+    font-weight: bold;
+    height: 90px;
+}
+  
+.header-logo {
+    margin-left: 11%;
+    float: left;
+    font-size: 36px;
+    padding: 25px 0px 0px 0px;
+}
+.img-logo{
+    width: 50%;
+    height: 30%px;
+}
+  
+.header-list{
+      float: right;
+      padding-right: 10%;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+li {
+    list-style: none;
+}
+/* endk of header */
+
+/* top main */
+.container-top-main{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.top-main-left{
+    float: left;
+    padding: 100px 150px 10px 0px ;
+}
+.top-main-right{
+    padding: 60px 10px 10px 300px ;
+}
+.top-main-info-pOne{
+    font-size:30px;
+    padding: 5px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.top-main-info-pTwo{
+    padding: 5px;
+    font-size:20px;
+    font-family: Arial;
+}
+.top-main-btn{
+    padding-top: 40px;
+    margin: 20px 0;
+}
+  
+  .top-main-btn p {
+    margin-left: 10px;
+  }
+  
+  .peternak {
+    background-color:yellow;
+    margin-right: 10px;
+    text-decoration:none
+  }
+  
+  .penjual {
+    background-color: yellow;
+    text-decoration:none
+  }
+  
+  .btn {
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 100px;
+  }
+  
+/* end of main */
+
 /* Stlye Main Content */
 .container{
     margin: 0 auto;
