@@ -206,11 +206,11 @@ li {
 .color-7{background-color: #c0cbd1;}
 
 
-
+/*Map */
 .contents-map {
     height: 500px;
     margin-top: 50px;
-    padding: 10px 100px 100px 180px;
+    padding: 10px 100px 100px 100px;
 }
 
 .section-title {
@@ -220,7 +220,7 @@ li {
 
 .contents-item {
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
     width: 30%;
 }
 
