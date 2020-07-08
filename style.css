@@ -1,95 +1,118 @@
-*{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div,a{
     margin: 0;
     padding: 0;
+}
+
+*{
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
 /* Header */
 .header {
-    background-color: #fff;
-    color: rgb(3, 15, 37);
-    font-family: Arial;
-    font-weight: bold;
-    height: 90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 74, 88);
+    height: 65px;
 }
   
 .header-logo {
-    margin-left: 11%;
     float: left;
-    font-size: 36px;
-    padding: 25px 0px 0px 0px;
+    padding: 18px 0px;
 }
 .img-logo{
-    width: 50%;
-    height: 30%px;
+    width: 150px;
 }
   
 .header-list{
       float: right;
-      padding-right: 10%;
 }
 
 .header-list li {
+    display: inline-block;
+    font-size: 14px;
     float: left;
-    padding: 33px 20px;
+    padding: 22px;
+    cursor: pointer;
+    background-color: rgba(255, 238, 160, 0);
+    transition: all 0.3s;
 }
-li {
-    list-style: none;
+
+.header-list li:hover{
+    background-color: rgba(255, 238, 160, 0.5);
 }
-/* endk of header */
+/* end of header */
 
 /* top main */
-.container-top-main{
-    margin: 0 auto;
-    width: 80%;
-    
+
+.main-wrapper{
+    height: 500px;
+    padding: 70px 0 100px 0;
+    margin-bottom: 100px;
+    color: #112A46;
 }
+
 .top-main-left{
     float: left;
-    padding: 100px 150px 10px 0px ;
+    padding-top: 20px;
 }
-.top-main-right{
-    padding: 60px 10px 10px 300px ;
-}
+
 .top-main-info-pOne{
-    font-size:30px;
-    padding: 5px;
-    font-family: Arial;
+    font-size:33px;
+    line-height: 42px;
     font-weight: bold;
 }
 .top-main-info-pTwo{
-    padding: 5px;
-    font-size:20px;
-    font-family: Arial;
+    font-size:33px;
+    font-weight: normal;
+    line-height: 42px;
 }
-.top-main-btn{
-    padding-top: 40px;
-    margin: 20px 0;
-}
-  
-  .top-main-btn p {
-    margin-left: 10px;
-  }
-  
-  .peternak {
-    background-color:yellow;
-    margin-right: 10px;
-    text-decoration:none
-  }
-  
-  .penjual {
-    background-color: yellow;
-    text-decoration:none
-  }
+
+.top-main-info-panda{
+    padding: 70px 0 30px 0;
+    font-size: 20px;
+} 
   
   .btn {
-    margin-top: 20px;
-    padding: 10px 50px 10px 50px;
-    color: rgb(0, 0, 0);
+    width: 200px;
+    margin-top: 50px;
+    padding: 12px;
+    color: #112A46;
     display: inline-block;
-    opacity: 0.8;
+    text-align: center;
     border-radius: 100px;
+    font-weight: bold;
+    background-color: #FFD011;
+    margin-right: 15px;
+    transition: all 0.3s;
   }
+
+  .btn:hover{
+      background-color:rgb(255, 225, 106);
+  }
+
+.top-main-right{
+    float: right;
+    height: 500px;
+}
+
+.top-main-right img{
+   height: 100%;
+}
   
 /* end of main */
 
