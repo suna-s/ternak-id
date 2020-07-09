@@ -117,67 +117,77 @@ a{
 /* end of main */
 
 /* Stlye Main Content */
-.container{
-    margin: 0 auto;
-    width: 80%;
-
-}
 
 .main{
-    
+    background-color: #fff7c8;
+    text-align: center;
+    height: 700px;
 }
 /* .main-title */
 .main-title{
-    padding: 10px;
-    background-color: #efefef;
+    padding-top: 50px;
+    color:#112A46;
 }
+
 .main-title h1{
-    padding: 5px;
-    text-align: center;
-    font-size: 1.2em;
+    padding-bottom: 18px;
+    font-size: 24px;
     font-weight: bold;
-    font-family: sans-serif;
 }
+
 .main-title p{
-    text-align: center;
-    font-size: 0.8em;
+    line-height: 18px;
+    font-size: 15px;
 }
 /* .main-card */
 .main-card{
-    padding: 10px;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #eaeaea;
 }
+
 .card-portrait{
+    height: 300px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 85%;
+    width: 100%;
 }
+
 .content-portrait{
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid #fff;
+    border-radius: 5px;
+    height: 300px;
+    width: 25%;
+    margin: 5px;
+    top: 0;
+    transition: all 0.3s;
+}
+
+
+.card-img{
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin: 10px;
-    background-color: blue;
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
+    
 }
 .content-portrait img{
-    padding: 5px;
-    width: 160px;
-    height: 180px;
+    width: 100%;    
 }
+
 .text{
-    padding: 10px;
-    font-family: sans-serif;
+    width: 100%;
+    background-color: white;
 }
+
 .text p{
+    padding: 5px;
     text-align: center;
+    background-color: rgb(228, 227, 224);
     /* font-weight: bold; */
 }
 .text h1{
@@ -187,82 +197,188 @@ a{
     font-size: 0.5em;
 }
 
+.content-portrait:hover{
+    transform: translate(0, -20px);
+}
 
 .card-landscape{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 85%;
-}
-.content-landscape{
-    margin: 10px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    background-color: white;
-    width: 300px;
-    height: 150px;
-    border-radius: 5px;
-}
-.content-landscape img{
-    opacity: 80%;
-    width: 220px;
-    height: 150px;
-    border-radius: 5px;
+    width: 100%;    
 }
 
-.card-landscape .text{
-    position: absolute;
-    margin-top: 1vh;
-    margin-left: -6%;
+
+.content-landscape{ 
+
+    border-radius: 5px;
+    height: 150px;
+    width: 32%;
+    margin: 30px auto;
+    align-items: center;
+    position: relative;
 }
-.card-landscape .text p{
+
+.card-land{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.card-land img{
+    height: 150px;
+
+}
+
+.text-l{
+    position: absolute;
+    top:70px;
+    padding-left: 20px;
+    
+}
+.text-l p{
     text-align: left;
 }
 
+
+
 .color-1{background-color: #69C2A9;}
 .color-2{background-color: #FDCC56;}
-.color-3{background-color: #9C9CF6;}
+.color-3{background-color: rgb(204, 20, 7);}
 .color-4{background-color: #FEF60E;}
 .color-5{background-color: #ddcfcc;}
 .color-6{background-color: #dcb8a8;}
 .color-7{background-color: #c0cbd1;}
 
-/*KB*/
+
+
+/*Kebutuhan Budidaya*/
 .kebutuhan-budidaya {
-  background-color: #FFE4E1;
-  padding: 20px;
+    height: 500px;
+    color: #112A46;
+    padding-top: 40px;
+    margin-bottom: 150px;
 }
+
 .judul-kb {
-  text-align: center;
+    text-align: center;
 }
-.main-kb p {
-  padding-top: 0.2px;
+
+.judul-kb h3{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
-.spesifikasi {
-  float: left;
+
+.judul-kb p{
+    font-size: 15px;
+    line-height: 20px;
 }
-.list-kb {
-  width: 100px;
-  text-align: center;
+.main-kb{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.kb-spek{
+    flex: 2;
+    width: 30%;
+    padding-top: 100px;
+}
+
+.kb-spek h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.kb-spek p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.kb-spek h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.kb-spek li{
+    padding-bottom: 15px;
+    list-style: square;
+}
+
+.kb-img{
+    flex: 3;
+    width: 50%;
+    
+}
+
+.kb-img img{
+    width: auto;
+    height: 450px;
+}
+
+.kb-list{
+    flex: 1;
+    padding-top: 100px;
+    
+}
+
+.btn-kb{
+    background-color: #fff9d400;
+    margin-bottom: 20px;
+    height: 65px;
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+ 
+.btn-kb img{
+    height: 90px;
+    position: absolute;
+    right:-8px;
+    top: -20px;
+}
+
+.btn-kb p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 25px 20px;
+}
+
+.btn-kb:hover{
+    background-color: #fff9d4;
 }
 
 /*Map */
-.contents-map {
+
+.main-map{
     height: 500px;
-    margin-top: 50px;
-    padding: 10px 100px 100px 100px;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.contents-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 
 .section-title {
-    font-size: 35px;
+    font-size: 26px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .contents-item {
-    float: left;
-    margin-right: 20px;
+    
     width: 30%;
+    position: relative;
+    
 }
 .img-map {
     margin-top: 15px;
@@ -270,21 +386,37 @@ a{
     height: 100%;
 }
 
-.contents-item h4 {
+.section-part {
     font-size: 15px;
     padding: 10px 25px;
-    color: white;
-    font-family: Arial;
-    background-color: #528AAE;
-    display: inline-block;
+    color: rgba(0, 0, 0, 0);
+    display: block;
     border-radius: 35px;
     margin-bottom: 10px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: all 0.3s;
 }
 
 .contents-item p {
     font-size: 18px;
     margin-top: 0px;
 }
+
+.section-part:hover{
+    top:280px;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000;
+}
+
+.btn-map{
+    height: 300px;
+    cursor: pointer;   
+}
+
+
 
 
 
@@ -293,6 +425,7 @@ footer{
     background-color: #FF9D00;
     height: 50px;
     color: #29343F;
+    margin-top: 100px;
 }
 
 .footer-wrapper{
@@ -318,4 +451,3 @@ footer{
 .designer{
     font-size: 12px;
 }
-
